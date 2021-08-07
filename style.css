@@ -64,4 +64,86 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* slick dots starts */
+.slick-dots{
+  text-align: center;
+  list-style: none;
+
+}
+
+.slick-dots li{
+  display: inline-block;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+.slick-dots li button{
+  color: transparent;
+  width: 10px;
+  height: 10px;
+  line-height: 10px;
+  border-radius: 50%;
+  background: red;
+  border: none;
+  text-align: center;
+  
+}
+/* slick dots ends */
+
+
+
+/* Arrow CSS Starts */
+.slider2 {
+  position: relative;
+}
+
+.arrow-left {
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: 3%;
+  color: rgb(77, 77, 77);
+  font-size: 35px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgba(245, 222, 179, 0);
+  border-radius: 50%;
+  text-align: center;
+  transition: 1s;
+}
+
+.arrow-left:hover {
+  background-color: rgba(0, 0, 0, 0.411);
+  color: white;
+}
+
+.arrow-right {
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  right: 3%;
+  font-size: 35px;
+  color: rgb(77, 77, 77);
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgba(245, 222, 179, 0);
+  border-radius: 50%;
+  text-align: center;
+  transition: 1s;
+}
+
+.arrow-right:hover {
+  background-color: rgba(0, 0, 0, 0.411);
+  color: white;
+}
+
+/* Arrow CSS ends */
 /* slider 2 CSSS ends */

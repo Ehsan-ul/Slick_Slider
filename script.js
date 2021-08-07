@@ -10,7 +10,7 @@ $(document).ready(function () {
     fade: true,
     speed: 2000,
     cssEase: 'linear',
-    dots: true,
+    dots: false,
   });
 
   // slider 2 js
@@ -19,16 +19,17 @@ $(document).ready(function () {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 1500,
     fade: true,
-    speed: 2000,
+    speed: 1500,
     cssEase: 'linear',
     dots: true,
+    prevArrow: '.arrow-left',
+    nextArrow: '.arrow-right',
   });
 
-
-  // slider 3 js  
+  // slider 3 js
   $('.slider3').slick({
     infinite: true,
     slidesToShow: 3,
@@ -38,5 +39,4 @@ $(document).ready(function () {
     speed: 1000,
     dots: false,
   });
-
 });
